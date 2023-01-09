@@ -7,7 +7,6 @@ public class ATM {
         Handler50 handler50 = new Handler50();
         handler20.setNext(handler5);
         handler50.setNext(handler20);
-
         handler50.process(126);
     }
 }
